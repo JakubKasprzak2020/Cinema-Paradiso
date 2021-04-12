@@ -1,0 +1,58 @@
+body {
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-align: center;
+    padding: 32px;
+    text-decoration: none;
+    background-color: #333333;
+    color: white;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+main {
+    text-align: center;
+}
+
+.recomendation {
+    color: white;
+    background-color: cadetblue;
+    text-align: left;
+    padding: 30px;
+    margin: 10px;
+}
+
+.box {
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+}
+
+.poster {
+    width: 290px;
+    height: 430px;
+}
