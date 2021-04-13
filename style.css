@@ -8,6 +8,18 @@ h1, h2, h3 {
     text-align: center;
 }
 
+#cinema {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px ;
+    color: firebrick;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -18,6 +30,7 @@ ul {
 
 li {
     display: inline-block;
+    margin: 2px;
 }
 
 li a {
@@ -26,6 +39,7 @@ li a {
     text-decoration: none;
     background-color: #333333;
     color: white;
+    display: inline-block;
 }
 
 li a:hover {
@@ -36,7 +50,7 @@ main {
     text-align: center;
 }
 
-.recomendation {
+#recomendation, #newsletter {
     color: white;
     background-color: cadetblue;
     text-align: left;
@@ -55,4 +69,32 @@ main {
 .poster {
     width: 290px;
     height: 430px;
+}
+
+.in-newsletter{
+    font-size: 20px;
+    margin: 10px;
+}
+
+input[type=text]{
+    border: 5px solid white;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    
+}
+
+input[type=button]{
+    background-color: rgba(255,255,255,0.5);
+    border: 5px solid white;
+    padding: 7px 16px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+input[type=checkbox]{
+    margin-left: 25px;
 }
