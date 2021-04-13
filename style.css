@@ -67,6 +67,16 @@ main {
     border-style: solid;
 }
 
+.movie-list {
+    color: white;
+    background-color: cadetblue;
+    text-align: left;
+    padding: 30px;
+    margin: 10px;
+    height: 140px;
+    overflow: scroll;
+}
+
 .poster {
     width: 290px;
     height: 430px;
@@ -75,11 +85,18 @@ main {
 .small-poster {
     width: 93px;
     height: 133px;
-   float: right;
+   float: left;
+   padding-right: 10px;
+   margin: auto;
 }
 
 .description {
-display: inline;
+    width: 80%;
+    height: 100px;
+margin-right: 10px;
+margin-left: 10px;
+margin-top: auto;
+margin-bottom: auto;
 }
 
 .event-photo {
