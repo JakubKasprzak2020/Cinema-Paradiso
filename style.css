@@ -40,6 +40,7 @@ li a {
     background-color: #333333;
     color: white;
     display: inline-block;
+    border: solid;
 }
 
 li a:hover {
@@ -97,4 +98,34 @@ input[type=button]{
 
 input[type=checkbox]{
     margin-left: 25px;
+}
+
+table {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 15px;
+    border: 5px solid white;
+    background-color: cadetblue;
+}
+
+td {
+    text-align: left;
+    color: black;
+}
+
+th {
+    text-align: center;
+    color: white;
+}
+
+#tickets td {
+text-align: center;
+}
+
+#repertoire td:hover {
+    background-color: firebrick;
 }
