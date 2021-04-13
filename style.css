@@ -51,7 +51,7 @@ main {
     text-align: center;
 }
 
-#recomendation, #newsletter {
+.chapter {
     color: white;
     background-color: cadetblue;
     text-align: left;
@@ -72,16 +72,22 @@ main {
     height: 430px;
 }
 
+.small-poster {
+    width: 93px;
+    height: 133px;
+   float: right;
+}
+
+.description {
+display: inline;
+}
+
 .event-photo {
     width: 290px;
     height: 430px;
-
-  /*  width: 186px;
-    height: 286px;
-    */
 }
 
-.in-newsletter{
+.newsletter{
     font-size: 20px;
     margin: 10px;
 }
