@@ -149,10 +149,12 @@ th, td {
     background-color: cadetblue;
 }
 
-td {
+td a {
     text-align: left;
     color: black;
+    text-decoration: none;
 }
+
 
 th {
     text-align: center;
@@ -161,6 +163,7 @@ th {
 
 #tickets td {
 text-align: center;
+color: black;
 }
 
 #repertoire td:hover {
@@ -175,4 +178,47 @@ text-align: center;
 
 #home {
 margin-right: 85%;
+}
+
+.contact-box {
+    background-color: firebrick;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 110px;
+    width: 400px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.contact-box2 {
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 110px;
+    width: 400px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    top:-20px;
+}
+
+.contact-boxes {
+    position: relative;
+    top:-40px; 
+}
+
+.event-text {
+    background-color: cadetblue;
+    color: white;
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
 }
